@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+</head>
+
+<body>
+
+    <!--Header for the page and the nav buttons-->
+
+    <header id="page-header">
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="index.html">About</a></li>
+                <li id="name-logo"><a class="active" href="index.html">Anjali Aujla</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header id="mobile-header">
+        <a class="mobile-logo-link" href="index.html">Anjali Aujla</a>
+        <nav id="mobile-nav">
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <!--Main content area for input and submit-->
+
+    <main>
+
+        <div id="page-content">
+            <div class="inner">
+                <h2>Contact</h2>
+                <hr>
+                <br>
+
+                <form>
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John Smith"> <br><br>
+
+                    <label for="lname">Email</label>
+                    <input type="email" id="lname" name="email" placeholder="example@gmail.com"><br><br>
+
+                    <label for="message">Message</label>
+                    <input id="message" style="display:none">
+                    <br><textarea></textarea><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!--Footer, which includes the copyright info-->
+
+    <footer>
+        <div id="page-footer">
+            <p class="copyright">
+                <small>Copyright &copy; </small>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

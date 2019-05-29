@@ -4,8 +4,6 @@
 ## https://bootcamper247.github.io/Portfolio/
 ## HTML/CSS
 
-- No personal info added as of now
-
 - List of projects. 
 
 - Each project has the following:

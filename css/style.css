@@ -131,7 +131,7 @@ h2{
 
 
 .cats{
-    height: 215px; 
+    /* height: 215px;  */
     width: 225px;
     float: left;
     margin-right: 15px; 
